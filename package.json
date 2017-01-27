@@ -1,0 +1,17 @@
+{
+  "name": "bot_projet_transversal",
+  "version": "0.0.1",
+  "description": "Conversationnal bot made for our school project",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "0.x",
+    "botpress-messenger": "^1.0.16",
+    "botpress-rivescript": "^1.0.11"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Coquereau & Arnaud Langelier",
+  "license": "AGPL-3.0"
+}
