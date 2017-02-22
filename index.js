@@ -13,6 +13,18 @@ module.exports = function(bp) {
 	 */
  	bp.middlewares.load()
 
+ 	const payload = {
+    template_type: "button",
+    text: "Have you seen our awesome website?",
+    buttons: [
+        {
+            type: "web_url",
+            url: "https://www.botpress.io",
+            title: "Show Website"
+        }
+    ]
+}
+
 	bp.hear(/id/i, (event, next) => {
 		bp.messenger.sendText(	event.user.id, 
 								'Ton ID est : ' + event.user.id, 
@@ -36,5 +48,11 @@ module.exports = function(bp) {
 		bp.messenger.sendText(	event.user.id, 
 								'Je suis un bot conversationnel, créé dans le cadre du projet transversal de deux élèves.',
 								{typing: true});
+	})
+
+	bp.hear(/test/i, (event, next) => {
+		bp.messenger.sendTemplate(	event.user.id,
+									payload
+								);
 	})
 }
