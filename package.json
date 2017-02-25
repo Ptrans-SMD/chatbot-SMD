@@ -6,7 +6,7 @@
   "dependencies": {
     "botpress": "0.x",
     "botpress-messenger": "^1.0.16",
-    "botpress-rivescript": "^1.0.11"
+    "botpress-wit": "^1.0.3"
   },
   "scripts": {
     "start": "botpress start",

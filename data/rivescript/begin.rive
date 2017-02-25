@@ -18,9 +18,6 @@
 ! sub what'll = what will
 ! sub who's   = who is
 
-+ (hello|bonjour|yo)
-- Hello, human!
-
 + my name is *
 - <set name=<formal>>Nice to meet you, <get name>.
 - <set name=<formal>><get name>, nice to meet you.
@@ -30,6 +27,3 @@
 - Your name is <get name>.
 - You told me your name is <get name>.
 - Aren't you <get name>?
-
-+ test
-- Tres fun ton test

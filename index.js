@@ -55,4 +55,9 @@ module.exports = function(bp) {
 									payload
 								);
 	})
+
+	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
+		console.log('>> help')
+		bp.messenger.sendText(event.user.id, "WTF");
+	})
 }
