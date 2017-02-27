@@ -25,7 +25,7 @@ module.exports = function(bp) {
     ]
 }
 
-	bp.hear(/id/i, (event, next) => {
+	bp.hear(/(\/id)/i, (event, next) => {
 		bp.messenger.sendText(	event.user.id, 
 								'Ton ID est : ' + event.user.id, 
 								{typing: true});
@@ -58,6 +58,11 @@ module.exports = function(bp) {
 
 	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
 		console.log('>> help')
-		bp.messenger.sendText(event.user.id, "WTF");
+		bp.messenger.sendText(event.user.id, "Vous avez demandé de l'aide.");
+	})
+
+	bp.hear({'wit.entities.intent[1].value': 'couleur'}, (event, next) => {
+		console.log('>> couleur')
+		bp.messenger.sendText(event.user.id, "Vous parlez de couleur.");
 	})
 }
