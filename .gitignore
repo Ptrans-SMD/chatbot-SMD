@@ -48,3 +48,5 @@ data/*
 
 # AUTHORIZE
 !data/rivescript
+
+modules_config
