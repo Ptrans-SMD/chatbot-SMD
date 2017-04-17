@@ -1,10 +1,5 @@
-/*
- * Entry point of the botpress bot
- * Accepts bp which is the global botpress context object
- * 
- * @bp : contains the default botpress API
- *
- */
+
+const handleIntent = require('./intent');
 
 module.exports = function(bp) {
 
@@ -13,6 +8,38 @@ module.exports = function(bp) {
 	 */
  	bp.middlewares.load()
 
+ 	/*
+ 	bp.hear(wit.entities, (event, next) => {
+ 		console.log('JE SUIS DEDANS\n');
+ 	})
+ 	*/
+
+	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
+		console.log('----------------------------------\n');
+		console.log('event wit : \n', event.wit);
+		console.log('----------------------------------\n');
+		console.log('event wit entity : \n', event.wit.entities);
+		console.log('----------------------------------\n');
+		console.log('event wit entity intent: \n', event.wit.entities.intent);
+		console.log('----------------------------------\n');
+		bp.messenger.sendText(event.user.id, "Vous avez demandé de l'aide.");
+	})
+
+	bp.hear({'wit.entities.intent[0].value': 'defineColor'}, (event, next) => {
+		console.log(event.wit);
+		bp.messenger.sendText(event.user.id, "Vous parlez de couleur.");
+	})
+}
+
+/*
+ * Entry point of the botpress bot
+ * Accepts bp which is the global botpress context object
+ * 
+ * @bp : contains the default botpress API
+ *
+ */
+
+ 	/*
  	const payload = {
     template_type: "button",
     text: "Have you seen our awesome website?",
@@ -54,15 +81,10 @@ module.exports = function(bp) {
 		bp.messenger.sendTemplate(	event.user.id,
 									payload
 								);
-	})
+	})*/
 
-	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
-		console.log('>> help')
-		bp.messenger.sendText(event.user.id, "Vous avez demandé de l'aide.");
-	})
+/*bp.hear({'wit.entities': value => value == undefined}, (event, next) => {
+	console.log('>> incompris');
+    bp.messenger.sendText(event.user.id, "Je n'ai pas compris ce que vous avez essayé de dire.");
+})*/
 
-	bp.hear({'wit.entities.intent[1].value': 'couleur'}, (event, next) => {
-		console.log('>> couleur')
-		bp.messenger.sendText(event.user.id, "Vous parlez de couleur.");
-	})
-}
