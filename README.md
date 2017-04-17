@@ -8,7 +8,7 @@ Bot conversationnel Polytech & SmartMyData
 **Sujet :**	Bot conversationnel prenant le relais sur un moteur de recherche
 d'un site de e-commerce lorsque celui-ci ne retourne pas de résultat.
 
-**Equipe :** 
+**Equipe :**
 
 Tuteurs :
     - Guillaume Raschia (Polytech)
@@ -22,6 +22,7 @@ Etudiants :
 Standalone :
 
 ```
+npm install
 npm install -g botpress
 bp start
 ```
