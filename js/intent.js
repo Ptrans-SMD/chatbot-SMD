@@ -1,15 +1,12 @@
 
-const writeInFile  = require('./js/stories');
-
 /*
  * handleIntent(+intent, +sender, +bp)
- *      gets the right intent from Wit.ai
- *      answers accordingly
+ *    gets the right intent from Wit.ai
+ *    answers accordingly
  *
  * +intent : the intent value received
  * +sender : the sender id
- * +bp     : used to send messages
- *
+ * +bp     : user to send/receive messages
  */
 
 const handleIntent = (intent, sender, bp) => {

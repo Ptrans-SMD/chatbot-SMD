@@ -1,5 +1,6 @@
 
-const handleIntent = require('./intent');
+const writeInFile  = require('./js/stories');
+const handleIntent = require('./js/intent');
 
 module.exports = function(bp) {
 
@@ -8,39 +9,22 @@ module.exports = function(bp) {
 	 */
  	bp.middlewares.load()
 
- 	/*
- 	bp.hear(wit.entities, (event, next) => {
- 		console.log('JE SUIS DEDANS\n');
- 	})
- 	*/
+ 	writeInFile('ceci est un test.', './test.txt');
 
  	bp.hear({ type: 'message' }, (event, next) => {
-
- 		if(event.wit.entities.intent !== undefined) {
- 			console.log('defined\n');
- 			let intent = event.wit.entities.intent[0].value;
- 		} else {
- 			console.log('undefined\n');
- 			let intent = 'undefined';
- 		}
-
- 		console.log('-----\n',intent,'-----\n');
-
  		const sender = event.user.id;
-
- 		handleIntent(intent, sender);
- 		/*console.log(event.wit.entities.intent[0].value);
-
- 		console.log('----------------------------------\n');
-		console.log('event wit : \n', event.wit);
-		console.log('----------------------------------\n');
-		console.log('event wit entity : \n', event.wit.entities);
-		console.log('----------------------------------\n');
-		console.log('event wit entity intent: \n', event.wit.entities.intent);
-		console.log('----------------------------------\n');
- 		console.log('WE ARE HERE.\n\n\n');*/
+ 		if(event.wit.entities.intent !== undefined) {
+ 			console.log('>> defined');
+ 			const intent = event.wit.entities.intent[0].value;
+ 			handleIntent(intent, sender, bp);
+ 		} else {
+ 			console.log('>> undefined');
+ 			handleIntent('undefined', sender, bp);
+ 		}
  	})
- 	/*
+}
+
+/*
 	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
 		console.log('----------------------------------\n');
 		console.log('event wit : \n', event.wit);
@@ -63,7 +47,17 @@ module.exports = function(bp) {
 		bp.messenger.sendText(event.user.id, "Vous parlez de couleur.");
 	})
 	*/
-}
+
+/*console.log(event.wit.entities.intent[0].value);
+
+ 		console.log('----------------------------------\n');
+		console.log('event wit : \n', event.wit);
+		console.log('----------------------------------\n');
+		console.log('event wit entity : \n', event.wit.entities);
+		console.log('----------------------------------\n');
+		console.log('event wit entity intent: \n', event.wit.entities.intent);
+		console.log('----------------------------------\n');
+ 		console.log('WE ARE HERE.\n\n\n');*/
 
 /*
  * Entry point of the botpress bot
@@ -121,4 +115,3 @@ module.exports = function(bp) {
 	console.log('>> incompris');
     bp.messenger.sendText(event.user.id, "Je n'ai pas compris ce que vous avez essayé de dire.");
 })*/
-
