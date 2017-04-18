@@ -14,6 +14,33 @@ module.exports = function(bp) {
  	})
  	*/
 
+ 	bp.hear({ type: 'message' }, (event, next) => {
+
+ 		if(event.wit.entities.intent !== undefined) {
+ 			console.log('defined\n');
+ 			let intent = event.wit.entities.intent[0].value;
+ 		} else {
+ 			console.log('undefined\n');
+ 			let intent = 'undefined';
+ 		}
+
+ 		console.log('-----\n',intent,'-----\n');
+
+ 		const sender = event.user.id;
+
+ 		handleIntent(intent, sender);
+ 		/*console.log(event.wit.entities.intent[0].value);
+
+ 		console.log('----------------------------------\n');
+		console.log('event wit : \n', event.wit);
+		console.log('----------------------------------\n');
+		console.log('event wit entity : \n', event.wit.entities);
+		console.log('----------------------------------\n');
+		console.log('event wit entity intent: \n', event.wit.entities.intent);
+		console.log('----------------------------------\n');
+ 		console.log('WE ARE HERE.\n\n\n');*/
+ 	})
+ 	/*
 	bp.hear({'wit.entities.intent[0].value': 'aide'}, (event, next) => {
 		console.log('----------------------------------\n');
 		console.log('event wit : \n', event.wit);
@@ -26,9 +53,16 @@ module.exports = function(bp) {
 	})
 
 	bp.hear({'wit.entities.intent[0].value': 'defineColor'}, (event, next) => {
-		console.log(event.wit);
+		console.log('----------------------------------\n');
+		console.log('event wit : \n', event.wit);
+		console.log('----------------------------------\n');
+		console.log('event wit entity : \n', event.wit.entities);
+		console.log('----------------------------------\n');
+		console.log('event wit entity intent: \n', event.wit.entities.intent);
+		console.log('----------------------------------\n');
 		bp.messenger.sendText(event.user.id, "Vous parlez de couleur.");
 	})
+	*/
 }
 
 /*
