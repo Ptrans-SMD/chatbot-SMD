@@ -1,6 +1,7 @@
 
 const writeInFile  = require('./js/stories');
 const handleIntent = require('./js/intent');
+const path         = require('path');
 
 module.exports = function(bp) {
 
@@ -9,7 +10,10 @@ module.exports = function(bp) {
 	 */
  	bp.middlewares.load()
 
- 	writeInFile('ceci est un test.', './test.txt');
+ 	console.log('current path', path.resolve('.'));
+
+ 	writeInFile(path.resolve(__dirname, './test.txt'), 'ceci est un test.');
+ 	writeInFile(path.resolve(__dirname, './test.txt'), 'allo allo.');
 
  	bp.hear({ type: 'message' }, (event, next) => {
  		const sender = event.user.id;

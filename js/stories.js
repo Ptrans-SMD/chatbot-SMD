@@ -10,18 +10,12 @@ const fs = require('fs');
  *
  */
 
-const writeInFile = (message, file) => {
-	console.log('message : ', message);
+const writeInFile = (file, message) => {
 	console.log('file : ', file);
-	fs.writeFile(message, file, (err) => {
+	fs.appendFile(file, message, (err) => {
 		if (err) throw err;
-		console.log('Message saved.');
+		console.log('The data was appended to the file.');
 	})
-
-	fs.readFile(file, (err, data) => {
-		if (err) throw err;
-		console.log(data);
-	});
 };
 
 module.exports = writeInFile;
