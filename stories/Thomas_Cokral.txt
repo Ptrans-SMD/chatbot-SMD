@@ -1,0 +1,12 @@
+Thomas - Yo là c'est bon j'espère
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Je veux de l'aide
+Bot - Vous avez demandé de l'aide.
+Thomas - Je veux du rouge
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Je veux la COULEUR rouge
+Bot - Vous cherchez à définir la couleur.
+Thomas - pd
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - cimer
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
