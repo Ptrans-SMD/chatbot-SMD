@@ -1,29 +1,35 @@
 
+const writeInFile  = require('./stories');
+
 /*
  * handleIntent(+intent, +sender, +bp)
- *    gets the right intent from Wit.ai
- *    answers accordingly
+ *      gets the right intent from Wit.ai
+ *      answers accordingly
  *
  * +intent : the intent value received
  * +sender : the sender id
- * +bp     : user to send/receive messages
+ * +bp     : used to send messages
+ *
  */
 
-const handleIntent = (intent, sender, bp) => {
+const handleIntent = (intent, sender, bp, pathStories) => {
+    var text;
     switch(intent) {
         case 'aide':
             console.log('>> help');
-            bp.messenger.sendText(sender, "Vous avez demandé de l'aide.");
+            text = 'Vous avez demandé de l\'aide.';
             break;
         case 'defineColor':
-            console.log('>> couleur');
-            bp.messenger.sendText(sender, "Vous cherchez à définir la couleur.");
+            console.log('>> define color');
+            text = 'Vous cherchez à définir la couleur.';
             break;
         default: 
-            console.log('>> incompris');
-            bp.messenger.sendText(sender, "Je n'ai pas compris ce que vous avez essayé de dire.");
+            console.log('>> not understood');
+            text = 'Je n\'ai pas compris ce que vous avez essayé de dire.';
             break;
     }
+    bp.messenger.sendText(sender, text);
+    writeInFile(pathStories, 'Bot - ' + text + '\n');
 };
 
 module.exports = handleIntent;

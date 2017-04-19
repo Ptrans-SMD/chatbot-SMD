@@ -14,7 +14,6 @@ const writeInFile = (file, message) => {
 	console.log('file : ', file);
 	fs.appendFile(file, message, (err) => {
 		if (err) throw err;
-		console.log('The data was appended to the file.');
 	})
 };
 

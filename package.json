@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "botpress": "0.x",
-    "botpress-messenger": "^2.0.9",
+    "botpress-messenger": "^2.0.10",
     "botpress-wit": "^1.0.3",
     "latest-version": "^3.1.0",
     "sqlite3": "^3.1.8"

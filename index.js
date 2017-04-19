@@ -10,20 +10,18 @@ module.exports = function(bp) {
 	 */
  	bp.middlewares.load()
 
- 	console.log('current path', path.resolve('.'));
-
- 	writeInFile(path.resolve(__dirname, './test.txt'), 'ceci est un test.');
- 	writeInFile(path.resolve(__dirname, './test.txt'), 'allo allo.');
-
  	bp.hear({ type: 'message' }, (event, next) => {
+ 		const pathName = './stories/' + event.user.first_name + '_' + event.user.last_name + '.txt';
+ 		const pathStories = path.resolve(__dirname, pathName);
  		const sender = event.user.id;
+ 		writeInFile(pathStories, event.user.first_name + ' - ' + event.text + '\n');
  		if(event.wit.entities.intent !== undefined) {
- 			console.log('>> defined');
+ 			// console.log('>> defined');
  			const intent = event.wit.entities.intent[0].value;
- 			handleIntent(intent, sender, bp);
+ 			handleIntent(intent, sender, bp, pathStories);
  		} else {
- 			console.log('>> undefined');
- 			handleIntent('undefined', sender, bp);
+ 			// console.log('>> undefined');
+ 			handleIntent('undefined', sender, bp, pathStories);
  		}
  	})
 }
