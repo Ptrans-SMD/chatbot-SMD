@@ -16,11 +16,9 @@ module.exports = function(bp) {
  		const sender = event.user.id;
  		writeInFile(pathStories, event.user.first_name + ' - ' + event.text + '\n');
  		if(event.wit.entities.intent !== undefined) {
- 			// console.log('>> defined');
  			const intent = event.wit.entities.intent[0].value;
  			handleIntent(intent, sender, bp, pathStories);
  		} else {
- 			// console.log('>> undefined');
  			handleIntent('undefined', sender, bp, pathStories);
  		}
  	})

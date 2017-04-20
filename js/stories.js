@@ -11,7 +11,6 @@ const fs = require('fs');
  */
 
 const writeInFile = (file, message) => {
-	console.log('file : ', file);
 	fs.appendFile(file, message, (err) => {
 		if (err) throw err;
 	})

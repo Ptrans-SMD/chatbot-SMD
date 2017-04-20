@@ -23,6 +23,14 @@ const handleIntent = (intent, sender, bp, pathStories) => {
             console.log('>> define color');
             text = 'Vous cherchez à définir la couleur.';
             break;
+        case 'greetings':
+            console.log('>> greetings');
+            text = 'Bonjour.';
+            break;
+        case 'thanks':
+            console.log('>> thanks');
+            text = 'De rien c\'est un plaisir.';
+            break;
         default: 
             console.log('>> not understood');
             text = 'Je n\'ai pas compris ce que vous avez essayé de dire.';

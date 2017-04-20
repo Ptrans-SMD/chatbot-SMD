@@ -10,3 +10,39 @@ Thomas - pd
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Thomas - cimer
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Salut
+Bot - Bonjour.
+Thomas - Hey
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Yo
+Bot - Bonjour.
+Thomas - Allo
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Salutations
+Bot - Bonjour.
+Thomas - Salutaire mdr
+Bot - Bonjour.
+Thomas - Bonsoir
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Hello
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Hi
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Yo
+Bot - Bonjour.
+Thomas - Waddup
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Merci
+Bot - De rien c'est un plaisir.
+Thomas - Thanks
+Bot - De rien c'est un plaisir.
+Thomas - Thank you
+Bot - Bonjour.
+Thomas - cimer
+Bot - De rien c'est un plaisir.
+Thomas - ty
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - couleur rouge stp
+Bot - Vous cherchez à définir la couleur.
+Thomas - couleur
+Bot - Vous cherchez à définir la couleur.
