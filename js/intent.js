@@ -1,5 +1,6 @@
 
 const writeInFile  = require('./stories');
+const randomPhrase = require('./randomisedTalk');
 
 /*
  * handleIntent(+intent, +sender, +bp)
@@ -17,7 +18,7 @@ const handleIntent = (intent, sender, bp, pathStories) => {
     switch(intent) {
         case 'aide':
             console.log('>> help');
-            text = 'Vous avez demandé de l\'aide.';
+            text = randomPhrase(intent);
             break;
         case 'defineColor':
             console.log('>> define color');
@@ -25,11 +26,11 @@ const handleIntent = (intent, sender, bp, pathStories) => {
             break;
         case 'greetings':
             console.log('>> greetings');
-            text = 'Bonjour.';
+            text = randomPhrase(intent);
             break;
         case 'thanks':
             console.log('>> thanks');
-            text = 'De rien c\'est un plaisir.';
+            text = randomPhrase(intent);
             break;
         default: 
             console.log('>> not understood');

@@ -46,3 +46,63 @@ Thomas - couleur rouge stp
 Bot - Vous cherchez à définir la couleur.
 Thomas - couleur
 Bot - Vous cherchez à définir la couleur.
+Thomas - bonjour
+Bot - Bien le bonjour.
+Thomas - salut
+Bot - Hey.
+Thomas - slt
+Bot - undefined
+Thomas - Je peux avoir de l'aide?
+Bot - undefined
+Thomas - De l'aide stp
+Bot - undefined
+Thomas - de l'aide stp
+Bot - undefined
+Thomas - bonjour
+Bot - Bien le bonjour.
+Thomas - salut salut
+Bot - undefined
+Thomas - salut salut
+Bot - Salut !
+Thomas - hey
+Bot - undefined
+Thomas - yo
+Bot - Hey.
+Thomas - salut
+Bot - undefined
+Thomas - yo
+Bot - Bonjour.
+Thomas - salut
+Bot - Bonjour.
+Thomas - slt
+Bot - Salut !
+Thomas - hey
+Bot - Bonjour.
+Thomas - J'peux avoir de l'aide?
+Bot - Pour recommencer la conversation, envoyez /restart. Sinon, envoyez une phrase de la forme : "Je veux une table en pin d'exterieur.
+Thomas - hey
+Bot - Bonjour.
+Thomas - J'peux avoir de l'aide ?
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+	"Je veux une table en pin d'exterieur.
+Thomas - merci beaucoup
+Bot - Ne le mentionnez pas. ;)
+Thomas - T'es mimi tu le sais ça ;)
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - bjr
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Bot - Hey.
+Thomas - fait un effort voyons... je disais : "bonjour"
+Thomas - Je comprends pas trop, t'aurais de l'aide pour moi?
+Bot - undefined
+Thomas - help me pls
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - aide moi stp
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+Thomas - Je veux une table en pin d'exterieur
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - je te dis pas merci
+Bot - Ce fut un plaisir.
