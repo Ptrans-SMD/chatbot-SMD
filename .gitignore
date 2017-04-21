@@ -51,3 +51,6 @@ data/*
 
 # dotenv
 .env
+
+# Fichiers tests
+test.json
