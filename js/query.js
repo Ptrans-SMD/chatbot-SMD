@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
 });
 
 const category = 'the'; // catégorie trouvée par le bot
-const feature  = 'bio'; // caractéristique trouvée par le bot
+const feature  = 'blanc'; // caractéristique trouvée par le bot
 
 const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
 
