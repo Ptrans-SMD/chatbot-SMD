@@ -20,9 +20,18 @@ const connection = mysql.createConnection({
 });
 
 const category = 'the'; // catégorie trouvée par le bot
-const feature  = 'blanc'; // caractéristique trouvée par le bot
+const feature  = ['bio','blanc','chine','peche']; // caractéristique trouvée par le bot
+var myQuery = '';
 
-const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
+const queryBuilder = (feature) => new Promise((resolve, reject) => {
+    myQuery  = 'select designation from ' + category+ ' where';
+    feature.forEach(function(element){
+        myQuery += ' (designation LIKE \'%' + element + '%\' or description LIKE \'%' + element + '%\') and';
+    });
+    myQuery = myQuery.substring(0,myQuery.length-4);
+    console.log(myQuery);
+    resolve();
+});
 
 const getProduct = (connection) => new Promise((resolve, reject) => {
     connection.query({
@@ -59,7 +68,7 @@ connection.connect(function(err) {
     }
 
     console.log('connected as id ' + connection.threadId);
-
+    queryBuilder(feature);
     Promise.all([getProduct(connection)])
         .then(saveResults)
         .catch(console.error)
