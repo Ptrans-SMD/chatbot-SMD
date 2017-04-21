@@ -48,3 +48,6 @@ data/*
 
 # AUTHORIZE
 !data/rivescript
+
+# dotenv
+.env
