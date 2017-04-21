@@ -1,22 +1,28 @@
-const mysql       = require('mysql');
-const dotenv      = require('dotenv');
-const fs          = require('fs');
 
-dotenv.config({path:'../.env'});
+const mysql  = require('mysql');
+const dotenv = require('dotenv');
+const fs     = require('fs');
 
-//informations de connection à la base de données. Les infos de connection sont dans le fichier .env qui est lui même dans le git ignore histoire que les accès à la bdd soient pas sur github
-const connection  = mysql.createConnection({
-    host        : process.env.MYSQL_HOST,
-    port        : process.env.MYSQL_PORT,
-    user        : process.env.MYSQL_ID,
-    password    : process.env.MYSQL_PASSWORD,
-    database    : process.env.MYSQL_DATABASE
+dotenv.config( {path:'../.env'} );
+
+/*
+ * Informations de connection à la base de données. 
+ * Les infos de connection sont dans le fichier .env qui est lui même dans le git ignore.
+ * Cela sert à éviter que les accès à la bdd se retrouvent sur github.
+ *
+ */
+const connection = mysql.createConnection({
+    host     : process.env.MYSQL_HOST,
+    port     : process.env.MYSQL_PORT,
+    user     : process.env.MYSQL_ID,
+    password : process.env.MYSQL_PASSWORD,
+    database : process.env.MYSQL_DATABASE
 });
 
-const category="the"; //catégorie trouvée par le bot
-const feature="bio"; //caractéristique trouvée par le bot
+const category = 'the'; // catégorie trouvée par le bot
+const feature  = 'bio'; // caractéristique trouvée par le bot
 
-const myQuery = 'select designation from '+category+' where designation LIKE \'%'+feature+'%\' or description LIKE \'%'+feature+'%\'';
+const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
 
 const getProduct = (connection) => new Promise((resolve, reject) => {
     connection.query({
@@ -28,8 +34,8 @@ const getProduct = (connection) => new Promise((resolve, reject) => {
             return;
         }
         resolve({
-            products: results,
-            product_number: results.length,
+            products       : results,
+            product_number : results.length,
         });
     });
 });
@@ -41,7 +47,7 @@ const saveResults = (data) =>  new Promise((resolve, reject) => {
             return;
         }
 
-        console.log('File wrtitten');
+        console.log('File written');
         resolve();
     });
 });
