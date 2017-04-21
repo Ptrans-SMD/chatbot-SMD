@@ -23,6 +23,6 @@ Standalone :
 
 ```
 npm install
-npm install -g botpress
+npm install botpress
 bp start
 ```
