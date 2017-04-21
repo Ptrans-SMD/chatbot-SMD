@@ -1,7 +1,8 @@
 
-const writeInFile  = require('./js/stories');
-const handleIntent = require('./js/intent');
-const path         = require('path');
+const writeInFile    = require('./js/stories');
+const handleIntent   = require('./js/intent');
+const handleCategory = require('./js/category')
+const path           = require('path');
 
 module.exports = function(bp) {
 
@@ -18,8 +19,12 @@ module.exports = function(bp) {
  		if(event.wit.entities.intent !== undefined) {
  			const intent = event.wit.entities.intent[0].value;
  			handleIntent(intent, sender, bp, pathStories);
+ 		} else if(event.wit.entities.categorie !== undefined) {
+ 			const category = event.wit.entities.categorie[0].value;
+ 			handleCategory(category, sender, bp, pathStories);
  		} else {
- 			handleIntent('undefined', sender, bp, pathStories);
+ 			handleCategory('undefined', sender, bp, pathStories);
  		}
+
  	})
 }

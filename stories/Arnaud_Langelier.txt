@@ -12,3 +12,17 @@ Arnaud - je veux un truc pas cher
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Arnaud - allo
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - Salut salut
+Bot - Salut !
+Arnaud - Je voudrais un hamac s'il te plaît
+Bot - Vous recherchez un hamac
+Arnaud - Un hamac bleu stp
+Bot - Vous recherchez un hamac
+Arnaud - Bleu
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - Bleu
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - Je veux un collier
+Bot - Vous recherchez un collier
+Arnaud - Un collier de hamacs
+Bot - Vous recherchez un collier

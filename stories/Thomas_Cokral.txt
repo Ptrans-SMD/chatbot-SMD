@@ -106,3 +106,87 @@ Thomas - Je veux une table en pin d'exterieur
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Thomas - je te dis pas merci
 Bot - Ce fut un plaisir.
+Thomas - une bague
+Thomas - aide
+Thomas - aide
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - bague
+Thomas - aide
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - aide
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+Thomas - bague
+Thomas - Je veux une bague
+Bot - Vous recherchez un bague
+Thomas - J'aimerais, monsieur le bot, obtenir un anneau pour ma main
+Bot - Vous recherchez un bague
+Thomas - Et auriez-vous en stock des colliers à longue chaîne ?
+Bot - Vous recherchez un collier
+Thomas - un porte clés ?
+Bot - Vous recherchez un porte clefs
+Thomas - vous auriez une gourmette ?
+Bot - Vous recherchez un bracelet
+Thomas - bah non, je cherche une gourmette
+Bot - Vous recherchez un bracelet
+Thomas - ok google
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - toile hamac
+Bot - Vous recherchez un toile hamac
+Thomas - Bonjour
+Bot - Bien le bonjour.
+Thomas - teste
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - test*
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - chaise hamac
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - chaise hamac
+Bot - Vous recherchez un chaise hamac
+Thomas - boite bijoux
+Bot - Salut !
+Thomas - boite a bijoux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - boîte à bijoux
+Bot - Vous recherchez un boîte à bijoux
+Thomas - ah bah quand même
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - boite bijoux
+Bot - Vous recherchez un boîte à bijoux
+Thomas - c'est UNE mais ouais
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - bijour
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - un récipient à bijoux?
+Bot - Vous recherchez un boîte à bijoux
+Thomas - quelquechose pour stocker mes bijoux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - de quoi ranger mes bijoux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - quelquechose à étendre entre deux arbres pour roupiller
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - sieste
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Salut
+Bot - Hey.
+Thomas - Hey
+Bot - Hey.
+Thomas - Un hamac stp
+Bot - Vous recherchez un hamac
+Thomas - bien ouej
+Bot - Vous cherchez à définir la couleur.
+Thomas - PAS DU TOUT
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Es-tu en vie ?
+Bot - Vous cherchez à définir la couleur.
+Thomas - Slt
+Bot - Hey.
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Comment vas-tu ?
