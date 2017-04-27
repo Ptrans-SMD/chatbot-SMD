@@ -2,8 +2,11 @@
 const mysql  = require('mysql');
 const dotenv = require('dotenv');
 const fs     = require('fs');
+const path   = require('path');
 
-dotenv.config( {path:'../.env'} );
+dotenv.config({
+    path: path.resolve(__dirname, '../.env')
+});
 
 /*
  * Informations de connection à la base de données. 
@@ -11,6 +14,8 @@ dotenv.config( {path:'../.env'} );
  * Cela sert à éviter que les accès à la bdd se retrouvent sur github.
  *
  */
+
+
 const connection = mysql.createConnection({
     host     : process.env.MYSQL_HOST,
     port     : process.env.MYSQL_PORT,
@@ -19,12 +24,26 @@ const connection = mysql.createConnection({
     database : process.env.MYSQL_DATABASE
 });
 
-const category = 'the'; // catégorie trouvée par le bot
-const feature  = 'bio'; // caractéristique trouvée par le bot
+console.log(process.env.MYSQL_HOST);
 
-const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
 
-const getProduct = (connection) => new Promise((resolve, reject) => {
+//const category = 'the'; // catégorie trouvée par le bot
+//const feature  = 'bio'; // caractéristique trouvée par le bot
+
+
+const saveResults = (data) =>  new Promise((resolve, reject) => {
+    fs.writeFile(path.resolve(__dirname, './test.json'), JSON.stringify(data), (err) => {
+        if (err) {
+            reject(err);
+            return;
+        }
+
+        console.log('File written');
+        resolve();
+    });
+});
+
+const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     connection.query({
         sql: myQuery,
         timeout: 36000, // 36.000s :-)
@@ -40,32 +59,28 @@ const getProduct = (connection) => new Promise((resolve, reject) => {
     });
 });
 
-const saveResults = (data) =>  new Promise((resolve, reject) => {
-    fs.writeFile('test.json', JSON.stringify(data), (err) => {
+const sendQuery = (category) => {
+
+    const feature = 'rose';
+    const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
+
+    connection.connect(function(err) {
         if (err) {
-            reject(err);
+            console.error('error connecting : ' + err.stack);
             return;
         }
 
-        console.log('File written');
-        resolve();
-    });
-});
+        console.log('connected as id ' + connection.threadId);
 
-connection.connect(function(err) {
-    if (err) {
-        console.error('error connecting : ' + err.stack);
-        return;
-    }
-
-    console.log('connected as id ' + connection.threadId);
-
-    Promise.all([getProduct(connection)])
-        .then(saveResults)
-        .catch(console.error)
-        .then(() => {
-            connection.end(function(err) {
-                console.log('The connection is terminated now');
+        Promise.all([getProduct(connection, myQuery)])
+            .then(saveResults)
+            .catch(console.error)
+            .then(() => {
+                connection.end(function(err) {
+                    console.log('The connection is terminated now');
+                });
             });
-        });
-});
+    });
+};
+
+module.exports = sendQuery;
