@@ -1,7 +1,7 @@
 
 const writeInFile    = require('./js/stories');
 const handleIntent   = require('./js/intent');
-const handleCategory = require('./js/category')
+const handleCategory = require('./js/category');
 const path           = require('path');
 
 module.exports = function(bp) {
