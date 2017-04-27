@@ -26,3 +26,85 @@ Arnaud - Je veux un collier
 Bot - Vous recherchez un collier
 Arnaud - Un collier de hamacs
 Bot - Vous recherchez un collier
+Arnaud - slt
+Bot - Salut !
+Arnaud - yo
+Bot - Hey.
+Arnaud - allp
+Arnaud - bonjour
+Bot - Hey.
+Arnaud - hamac
+Arnaud - salut
+Bot - Hey.
+Arnaud - hamac stp
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - allo
+Bot - Bien le bonjour.
+Arnaud - wesh wesh les copains
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - bonjour
+Bot - Hey.
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - bonjour
+Bot - Bien le bonjour.
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - process.env.MYSQL_HOST
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - js<fbkpsdqoikbvfjhskdlfds
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamc fdp
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamac
+Bot - Vous recherchez un hamac
+Arnaud - hamacs
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - sautoir
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - sautoir
+Arnaud - allô
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - slt
+Bot - Salut !
+Arnaud - wesh wesh les amis
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - sautoir
+Bot - undefined
+Arnaud - sautoir
+Bot - undefined
+Arnaud - collier
+Bot - prout
+Arnaud - bracelet
+Bot - Vous recherchez un bijoux
+Arnaud - collier
+Bot - Vous recherchez un bijoux
+Arnaud - collier
+Bot - Vous recherchez un bijoux
+Arnaud - bracelet
+Bot - Vous recherchez un bijoux
