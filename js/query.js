@@ -15,7 +15,6 @@ dotenv.config({
  *
  */
 
-
 const connection = mysql.createConnection({
     host     : process.env.MYSQL_HOST,
     port     : process.env.MYSQL_PORT,
@@ -25,10 +24,6 @@ const connection = mysql.createConnection({
 });
 
 console.log(process.env.MYSQL_HOST);
-
-
-//const category = 'the'; // catégorie trouvée par le bot
-//const feature  = 'bio'; // caractéristique trouvée par le bot
 
 
 const saveResults = (data) =>  new Promise((resolve, reject) => {
