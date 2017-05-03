@@ -1,7 +1,4 @@
 
-const writeInFile  = require('./stories');
-const randomPhrase = require('./randomisedTalk');
-
 /*
  * handleIntent(+intent, +sender, +bp)
  *      gets the right intent from Wit.ai
@@ -13,32 +10,31 @@ const randomPhrase = require('./randomisedTalk');
  *
  */
 
-const handleIntent = (intent, sender, bp, pathStories) => {
-    var text;
-    switch(intent) {
-        case 'aide':
-            console.log('>> help');
-            text = randomPhrase(intent);
-            break;
-        case 'defineColor':
-            console.log('>> define color');
-            text = 'Vous cherchez à définir la couleur.';
-            break;
-        case 'greetings':
-            console.log('>> greetings');
-            text = randomPhrase(intent);
-            break;
-        case 'thanks':
-            console.log('>> thanks');
-            text = randomPhrase(intent);
-            break;
-        default: 
-            console.log('>> not understood');
-            text = 'Je n\'ai pas compris ce que vous avez essayé de dire.';
-            break;
+const handleIntent = (intents, text) => {
+    // let text = '';
+    for(i = 0; i < intents.length; i++) {
+        intent = intents[i].value;
+        switch(intent) {
+            case 'aide':
+                console.log('>> help');
+                text += randomPhrase(intent);
+                break;
+            case 'greetings':
+                console.log('>> greetings');
+                text += randomPhrase(intent);
+                break;
+            case 'thanks':
+                console.log('>> thanks');
+                text += randomPhrase(intent);
+                break;
+            default: 
+                console.log('>> not understood');
+                text += 'Je n\'ai pas compris ce que vous avez essayé de dire.';
+                break;
+        }
+        text += '\n';
     }
-    bp.messenger.sendText(sender, text);
-    writeInFile(pathStories, 'Bot - ' + text + '\n');
+    return text;
 };
 
 module.exports = handleIntent;

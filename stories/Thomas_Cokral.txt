@@ -190,3 +190,203 @@ Thomas - Slt
 Bot - Hey.
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Thomas - Comment vas-tu ?
+Thomas - slt
+Bot - Salut !
+Bot - Vous recherchez un bijoux
+Thomas - aurais du un sautoir en qwartz rose stp
+Thomas - un bracelet violet?
+Bot - Vous recherchez un bijoux
+Thomas - salut salut salut
+Bot - Salut !
+Thomas - salut salut salut
+Bot - Salut !
+Thomas - salut yo bonjour
+Bot - Bien le bonjour.
+Thomas - yo yo yo
+Bot - Bien le bonjour.
+Thomas - bonjour
+Bot - Bien le bonjour.
+Thomas - yo
+Bot - Hey.
+Thomas - yo yo yo
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - yo yo
+Bot - Salut !
+Thomas - salut salut
+Bot - undefinedSalut !
+Thomas - aide salut mdr
+Bot - undefinedPour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."Hey.
+Thomas - yo yo yo
+Thomas - yo yo yo
+Bot - Salut !
+Bien le bonjour.
+Salut !
+
+Bot - Hey.
+Bien le bonjour.
+Bien le bonjour.
+
+Thomas - salut salut salut
+Thomas - salut aide
+Bot - Hey.
+Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+
+Thomas - merci merci
+Bot - Ne le mentionnez pas. ;)
+Ne le mentionnez pas. ;)
+
+Thomas - wesh wesh les amis
+Bot - Hey.
+
+Thomas - sautoir
+Bot - Vous recherchez un bijoux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - nacelle
+Thomas - naçelle
+Bot - Bien le bonjour.
+
+Thomas - hamac
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - sautoir
+Bot - Vous recherchez un bijoux
+Thomas - sautoir rouge
+Bot - Vous recherchez un bijoux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - nacelle
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet fdp
+Thomas - bracelet
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Bot - Vous recherchez un bijoux
+Thomas - bracelet fdp
+Thomas - bracelet
+Thomas - bracelet
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - bracelet
+Bot - Vous recherchez un bijoux
+Thomas - salut salut
+Bot - Bien le bonjour.
+
+Thomas - test
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+
+Thomas - yo aide
+Bot - Bien le bonjour.
+Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+
+Thomas - bracelet
+Bot - [bijoux] : bracelet
+Thomas - bracelet hamac sautoir
+Thomas - hamac
+Thomas - collier
+Bot - [bijoux] : collier
+Thomas - hfgh
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+
+Thomas - rose violet
+Thomas - bracelet rouge vert argent
+Bot - [bijoux] : bracelet rouge vert argent
+Thomas - boucle d'oreille vertes
+Bot - [bijoux] : boucles oreille [feature] vertes
+Thomas - hamacs bleu
+Thomas - synergie lendemain soirée
+Bot -  [feature] lendemain fete
+Thomas - huile essentielle pin
+Thomas - putain
+Thomas - kjzerhazkre
+Thomas - Bonjour mister le bot. Je voudrais des petites boucles d'oreilles en argent dorées stp
+Thomas - Bonjour mister le bot.
+Bot - Hey.
+
+Thomas - Je voudrais des petites boucles d'oreilles en argent dorées stp
+Thomas - boucles d'oreilles argent dorées
+Bot - [bijoux] : boucles oreille [feature] argent dorées
+Thomas - Je voudrais des petites boucles d'oreilles en argent dorées stp
+Thomas - boucles d'oreilles argent dorées
+Bot - [bijoux] : boucles oreille [feature] argent dorées
+Thomas - hamac bleu
+Thomas - hamac
+Thomas - hamacs
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - nacelle
+Thomas - nacelles
+Bot - [hamac] : nacelle
+Thomas - nacelles pliable
+Thomas - support de nacelle
+Bot - [hamac] : nacelle [feature] support
+Thomas - accroche nacelle
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - accroche nacelle qui fonctionne bien
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - slt gros con
+Bot - Bien le bonjour.
+
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - si je te dis hamac
+Thomas - ma foi
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - t'es ultra con
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - je veux des hamacs à perte de vue
+Bot -  [feature] vue
+Thomas - et des nacelles aussi
+Thomas - même des naçelles
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - ptn tu me fends le coeur.....
+Bot -  [feature] coeur
+Thomas - c'est ça essaie de changer de sujet
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - au moins tu fonctionne bien sur les bijoux
+Thomas - hamac fdp
+Thomas - hamac gros con
+Thomas - hamac fdp
+Bot - [hamacs] : hamac
+Thomas - BAH VOILA
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - ca m'énerve les gros cons qui savent pas reconnaitre les télescopes comme toi (bleu d'ailleurs)
+Bot -  [feature] bleu
+Thomas - tu rigoles
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
