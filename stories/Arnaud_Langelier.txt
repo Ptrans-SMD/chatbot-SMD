@@ -108,3 +108,30 @@ Arnaud - collier
 Bot - Vous recherchez un bijoux
 Arnaud - bracelet
 Bot - Vous recherchez un bijoux
+Arnaud - yo l'asticot
+Bot - Bien le bonjour.
+Arnaud - allo
+Bot - Salut !
+Arnaud - bague stp
+Bot - Vous recherchez un bijoux
+Arnaud - bague
+Arnaud - bague
+Bot - Vous recherchez un bijoux
+Arnaud - allô
+Bot - Bien le bonjour.
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - fdp
+Arnaud - merci
+Bot - Ce fut un plaisir.
+Arnaud - collier
+Bot - Vous recherchez un bijoux
+Arnaud - collier
+Bot - Vous recherchez un bijoux
+Arnaud - llo
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - l'aticot
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - réponds stp
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - allo
+Bot - Salut !

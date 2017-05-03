@@ -54,10 +54,17 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     });
 });
 
-const sendQuery = (category) => {
+const sendQuery = (category/*, feature*/) => {
 
-    const feature = 'rose';
-    const myQuery  = 'select designation from ' + category + ' where designation LIKE \'%' + feature + '%\' or description LIKE \'%' + feature + '%\'';
+    const feature=["bague","rose"];
+    var myQuery  = 'select designation from ' + category + ' where';
+
+    feature.forEach(function(element) {
+        myQuery +=  ' designation LIKE \'%' + element + '%\' or description LIKE \'%' + element + '%\' AND';
+    }, this);
+
+    myQuery = myQuery.substring(0, myQuery.length-4);
+    console.log(myQuery);
 
     connection.connect(function(err) {
         if (err) {
