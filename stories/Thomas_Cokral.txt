@@ -390,3 +390,19 @@ Thomas - ca m'énerve les gros cons qui savent pas reconnaitre les télescopes c
 Bot -  [feature] bleu
 Thomas - tu rigoles
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Salut BENDER
+Thomas - salut salut
+Bot - Hey.
+
+Thomas - aide
+Bot - Pour recommencer la conversation, envoyez /restart. 
+Sinon, envoyez une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+
+Thomas - bague violette
+Thomas - pk tu mdis c un hamac srx
+Bot - [hamacs] : hamac [feature] srx
+Thomas - chui cuit
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - on é foutu
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.

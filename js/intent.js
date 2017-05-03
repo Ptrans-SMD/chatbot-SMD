@@ -1,4 +1,6 @@
 
+const randomPhrase = require('./randomisedTalk');
+
 /*
  * handleIntent(+intent, +sender, +bp)
  *      gets the right intent from Wit.ai
