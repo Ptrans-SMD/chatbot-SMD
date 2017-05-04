@@ -135,3 +135,13 @@ Arnaud - réponds stp
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Arnaud - allo
 Bot - Salut !
+Arnaud - sautoir stp
+Bot - Vous recherchez un bijoux
+Arnaud - bijoux argent
+Bot - Vous recherchez un bijoux
+Bot - Vous recherchez un hamacs
+Arnaud - hamacs
+Arnaud - boucle d'oreille
+Bot - Vous recherchez un bijoux
+Arnaud - hamac
+Bot - Vous recherchez un hamacs
