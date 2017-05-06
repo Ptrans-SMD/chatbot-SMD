@@ -1,4 +1,3 @@
-
 const randomPhrase = require('./randomisedTalk');
 
 /*
@@ -14,9 +13,9 @@ const randomPhrase = require('./randomisedTalk');
 
 const handleIntent = (intents, text) => {
     // let text = '';
-    for(i = 0; i < intents.length; i++) {
+    for (i = 0; i < intents.length; i++) {
         intent = intents[i].value;
-        switch(intent) {
+        switch (intent) {
             case 'aide':
                 console.log('>> help');
                 text += randomPhrase(intent);
@@ -29,7 +28,7 @@ const handleIntent = (intents, text) => {
                 console.log('>> thanks');
                 text += randomPhrase(intent);
                 break;
-            default: 
+            default:
                 console.log('>> not understood');
                 text += 'Je n\'ai pas compris ce que vous avez essayé de dire.';
                 break;

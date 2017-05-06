@@ -1,10 +1,9 @@
-
 module.exports = {
 
   /**
-  * where the content is stored
-  * you can access this property from `bp.dataLocation`
-  */
+   * where the content is stored
+   * you can access this property from `bp.dataLocation`
+   */
   dataDir: process.env.BOTPRESS_DATA_DIR || "./data",
 
   modulesConfigDir: process.env.BOTPRESS_CONFIG_DIR || "./modules_config",
@@ -21,8 +20,8 @@ module.exports = {
   },
 
   /**
-  * Access control of admin pabel
-  */
+   * Access control of admin pabel
+   */
   login: {
     enabled: process.env.NODE_ENV === 'production',
     tokenExpiry: "6 hours",

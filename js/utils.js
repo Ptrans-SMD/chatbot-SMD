@@ -1,9 +1,8 @@
-
 /*
  * randomInteger(+max)
  *		return a random integer between 0 and the maximum given
- * 
- * +max : maximum value the user wants for the random
+ *
+ * +max:              maximum value the user wants for the random
  *
  */
 
