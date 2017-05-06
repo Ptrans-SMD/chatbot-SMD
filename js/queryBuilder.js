@@ -53,9 +53,7 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     });
 });
 
-const sendQuery = ( /*category, feature*/ ) => {
-    const category = 'hamacs';
-    const feature = ['double'];
+const sendQuery = (category, feature) => {
 
     var subQuery = 'select designation from ' + category + ' where';
     var subQuery2 = 'select designation from ' + category + ' where';
@@ -92,4 +90,3 @@ const sendQuery = ( /*category, feature*/ ) => {
 };
 
 module.exports = sendQuery;
-sendQuery();
