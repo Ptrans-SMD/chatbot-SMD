@@ -1,12 +1,11 @@
-
 const fs = require('fs');
 
 /*
  * writeInFile(+file, +message)
- *		write message in the file 
- * 
- * +file    : string of the file location
- * +message : string of the message to write
+ *		write message in the file
+ *
+ * +file:                              string of the file location
+ * +message:                           string of the message to write
  *
  */
 
