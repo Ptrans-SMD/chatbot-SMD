@@ -145,3 +145,123 @@ Arnaud - boucle d'oreille
 Bot - Vous recherchez un bijoux
 Arnaud - hamac
 Bot - Vous recherchez un hamacs
+Arnaud - slt
+Bot - Hey.
+
+Arnaud - hamac rouge stp
+Arnaud - slt
+Bot - Salut !
+
+Arnaud - Je voudrais un hamac double stp
+Arnaud - Est-ce que tu pourrais mettre les piles et arrêter de faire de la merde ? C'est archi gênant là
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - merci
+Bot - Ne le mentionnez pas. ;)
+
+Arnaud - hamac
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac stp
+Bot - [hamacs] : hamac
+Arnaud - je voudrais un hamac rouge
+Bot - [hamacs] : hamac [feature] rouge
+Arnaud - Je voudrais un hamac double stp
+Bot - [hamacs] : hamac [feature] double
+Arnaud - Est-ce que vous auriez des colliers en quartz rose et noir ?
+Bot - [bijoux] [feature] quartz rose noir
+Arnaud - Est-ce que vous auriez des colliers en quartz rose et noir ?
+Bot - [bijoux] : collier [feature] quartz rose noir
+Arnaud - allô
+Bot - Hey.
+
+Arnaud - allô
+Bot - Bien le bonjour.
+
+Arnaud - allô
+Bot - Hey.
+
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - allô
+Bot - Bien le bonjour.
+
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - allô
+Bot - Hey.
+
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - hamac bleu et blanc
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - allô
+Bot - Bien le bonjour.
+
+Arnaud - putain pourquoi t'es cassé encore
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - fdp
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - réponds moi
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - on a vécu tellement de choses ensemble
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - pourquoi tu me fais ça ?
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - ok je t'insulte des fois
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - mais c'est amical
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - allez quoi
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - réponds
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - ça me fend le coeur ce que tu fais là
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - salut
+Bot - Salut !
+
+Arnaud - je veux un hamac double
+Arnaud - hamac bleu et blanc
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - je veux un collier noir
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac bleu
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac bleu
+Arnaud - hamac bleu
+Bot - [hamacs] : hamac
+Arnaud - hamac bleu
+Bot - [hamacs] : hamacfeatures : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac double, bleu et noir
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu,noir
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - allo
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
