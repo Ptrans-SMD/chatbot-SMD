@@ -48,12 +48,12 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
         }
         resolve({
             products: results[0],
-            product_number: results.length,
+            product_number: results[0].length,
         });
     });
 });
 
-const sendQuery = (category, feature) => {
+const sendQuery = (category, feature) => new Promise((resolve, reject) => {
 
     var subQuery = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\' or description LIKE \'%' + category[1] + '%\') AND';
     var subQuery2 = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\') AND';
@@ -87,6 +87,6 @@ const sendQuery = (category, feature) => {
                 });
             });
     });
-};
+});
 
 module.exports = sendQuery;
