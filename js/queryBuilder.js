@@ -54,18 +54,25 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     });
 });
 
-const sendQuery = (category/*, feature*/) => {
+const sendQuery = (/*category, feature*/) => {
+    const category = 'hamacs';
+    const feature = ['double'];
 
-    const feature=["bague","rose"];
-    var myQuery  = 'select case when exists designation from ' + category + ' where';
+    var subQuery  = 'select designation from ' + category + ' where';
+    var subQuery2 = 'select designation from ' + category + ' where';
 
     feature.forEach(function(element) {
-        myQuery +=  ' (designation LIKE \'%' + element + '%\' or description LIKE \'%' + element + '%\') AND';
+        subQuery +=  ' (designation LIKE \'%' + element + '%\' or description LIKE \'%' + element + '%\') AND';
+        subQuery2 += ' (designation LIKE \'%' + element + '%\') AND';
     }, this);
 
-    myQuery = myQuery.substring(0, myQuery.length-4);
-    console.log(myQuery);
+    subQuery = subQuery.substring(0, subQuery.length-4);
+    subQuery2 = subQuery2.substring(0, subQuery2.length-4);
+    // console.log(subQuery);
+    // console.log(subQuery2);
 
+    const myQuery = 'CALL LoadProduct(\"'+category+'\",\"'+subQuery+'\",\"'+subQuery2+'\")';
+    console.log(myQuery);
     connection.connect(function(err) {
         if (err) {
             console.error('error connecting : ' + err.stack);
@@ -86,3 +93,4 @@ const sendQuery = (category/*, feature*/) => {
 };
 
 module.exports = sendQuery;
+sendQuery();
