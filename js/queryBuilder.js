@@ -40,7 +40,7 @@ const saveResults = (data) => new Promise((resolve, reject) => {
 const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     connection.query({
         sql: myQuery,
-        timeout: 36000, // 36.000s :-)
+        timeout: 3000, // 3.000s
     }, function (error, results, fields) {
         if (error) {
             reject(error);
