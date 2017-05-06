@@ -3,7 +3,10 @@ const handleIntent = require('./js/intent');
 const handleCategory = require('./js/category');
 const handleFeature = require('./js/feature');
 const sendQuery = require('./js/queryBuilder');
+const displayProducts = require('./js/displayProducts');
 const path = require('path');
+const fs = require('fs');
+
 
 module.exports = function (bp) {
 
@@ -28,6 +31,9 @@ module.exports = function (bp) {
 		// Where we save the category and the features of the product
 		let queryCategory = [];
 		let queryFeatures = [];
+
+		// Products found by the query
+		let products = '';
 
 		// Handle intents messages
 		if (event.wit.entities.intent !== undefined) {
@@ -56,9 +62,20 @@ module.exports = function (bp) {
 		if (text == '') {
 			text += 'Je n\'ai pas compris ce que vous avez essayé de dire.';
 		}
+
 		// Send the query
-		if (queryCategory !== undefined || queryFeatures !== undefined) {
-			sendQuery(queryCategory, queryFeatures);
+		if (queryCategory.length > 0 && queryFeatures.length > 0) {
+			console.log("je suis bien dans le if");
+			sendQuery(queryCategory, queryFeatures)
+				.then(() => {
+					fs.readFile(path.resolve(__dirname,'./js/test.json'), (err, data) => {
+						if (err) throw err;
+						products = JSON.parse(data);
+						text = displayProducts(products);
+						console.log("ok!");
+						console.log(text);
+					});
+				});
 		}
 		console.log("text : " + text);
 		bp.messenger.sendText(sender, text);

@@ -328,3 +328,84 @@ Arnaud - hamac double
 Bot -  [Category] : hamacs,hamac [Features] : double
 Arnaud - hamac double
 Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - allô
+Bot - Bien le bonjour.
+
+Arnaud - putain
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - il est minuit et quart
+Bot -  [Features] : quart
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - stop faire le cancer
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - et réponds
+Arnaud - merci
+Bot - Ne le mentionnez pas. ;)
+
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - allô
+Bot - Hey.
+
+Arnaud - recommence pas enculé
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - il est minuit trente
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - c'est pas mieux qu'avant
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - allez zou
+Bot - Salut !
+
+Arnaud - tu lis mes messages
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - et tu fais pas d'histoire
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - si tu réponds pas je te delete fdp
+Arnaud - ah mais putain je code sur master depuis tout à l'heure en plus
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - putain
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - solidité lvl max
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - boucles d'oreilles rose
+Bot -  [Category] : bijoux [Features] : rose
+Arnaud - hamac double
+Arnaud - hamac double
+Arnaud - hamac bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
