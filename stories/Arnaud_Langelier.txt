@@ -265,3 +265,66 @@ Arnaud - hamac double bleu
 Bot -  [Category] : hamacs,hamac [Features] : double,bleu
 Arnaud - hamac double bleu
 Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - salut salut gros fdp
+Bot - Salut !
+
+Arnaud - salut salut tas de merde, t'es toujours cassé ?
+Bot - Bien le bonjour.
+Salut !
+
+Arnaud - salut
+Bot - Hey.
+
+Arnaud - yo yo yo monsieur le fdp
+Bot - Salut !
+Salut !
+Salut !
+
+Arnaud - merci de plus faire de requêtes quand je te dis bonjour, c'est vraiment un plaisir
+Bot - Ce fut un plaisir.
+Salut !
+ [Features] : plaisir
+Arnaud - wtf
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+
+Arnaud - c'est une feature plaisir ?
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamacs bleu
+Bot -  [Category] : hamacs [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu rouge
+Bot -  [Category] : hamacs,hamac [Features] : bleu,rouge
+Arnaud - hamac bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac bleu
+Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
+Arnaud - hamac double
+Bot -  [Category] : hamacs,hamac [Features] : double
