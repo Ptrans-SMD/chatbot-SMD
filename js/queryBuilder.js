@@ -47,7 +47,7 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
             return;
         }
         resolve({
-            products: results,
+            products: results[0],
             product_number: results.length,
         });
     });
@@ -55,8 +55,8 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
 
 const sendQuery = (category, feature) => {
 
-    var subQuery = 'select designation from ' + category + ' where';
-    var subQuery2 = 'select designation from ' + category + ' where';
+    var subQuery = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\' or description LIKE \'%' + category[1] + '%\') AND';
+    var subQuery2 = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\') AND';
 
     feature.forEach(function (element) {
         subQuery += ' (designation LIKE \'%' + element + '%\' or description LIKE \'%' + element + '%\') AND';
