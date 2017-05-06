@@ -7,13 +7,13 @@
  *
  */
 
-const handleFeature = (features, text) => {
-    text += ' [feature]';
+const handleFeature = (features) => {
+    var queryFeatures = [];
     for (i = 0; i < features.length; i++) {
         feature = features[i].value;
-        text += ' ' + feature;
+        queryFeatures.push(feature);
     }
-    return text;
+    return queryFeatures;
 };
 
 module.exports = handleFeature;
