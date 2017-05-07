@@ -80,14 +80,19 @@ const sendQuery = (category, feature) => new Promise((resolve, reject) => {
 
         Promise.all([getProduct(connection, myQuery)])
             .then(saveResults)
-            .catch(console.error)
+            .catch(reject)
             .then(() => {
                 connection.end(function (err) {
+                    if (err) {
+                        reject(err);
+                        return;
+                    }
+
                     console.log('The connection is terminated now');
+                    resolve();
                 });
             });
     });
-    resolve();
 });
 
 module.exports = sendQuery;
