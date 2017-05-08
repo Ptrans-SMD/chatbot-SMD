@@ -24,5 +24,8 @@ Standalone :
 ```
 npm install
 npm install botpress
+nom install mysql
+botpress install messenger
+botpress install wit
 bp start
 ```
