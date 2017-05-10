@@ -579,3 +579,128 @@ Bot - Hey.
 Arnaud - je cherche un hamac de voyage
 Arnaud - je cherche un hamac de voyage
 Bot - 
+Arnaud - aide
+Bot - 
+	Vous avez besoin d'aide ? Sébastien à la rescousse !
+
+	Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.
+
+	Pour cela, envoyez moi juste une phrase de la forme : 
+"Je veux une table en pin d'exterieur."
+	
+
+Arnaud - aide
+Bot - 
+Vous avez besoin d'aide ? Sébastien à la rescousse !
+Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.
+Pour cela, envoyez moi juste une phrase de la forme :
+"Je veux une table en pin d'exterieur."
+	
+
+Arnaud - j'ai besoin d'aide
+Bot - 
+Vous avez besoin d'aide ? Sébastien à la rescousse !
+Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.
+Pour cela, envoyez moi juste une phrase de la forme :
+"Je veux une table en pin d'exterieur."
+	
+
+Arnaud - I NEED HEALING
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - bonjour
+Bot - undefined
+
+Arnaud - keske
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - bonjour
+Bot - 
+Bonjour bonjour, ici Sébastien !
+Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !
+Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.
+Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !
+Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+
+
+Arnaud - ah
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - là tu bug
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - j'aime
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - mdr
+Arnaud - on y est presque
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - Bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - Bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - bonjour
+Arnaud - bonjour
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - Yo l'asticot
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - j'ai besoin d'aide
+Bot - Vous avez besoin d'aide ? Sébastien à la rescousse !,Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.,Pour cela, envoyez moi juste une phrase de la forme :,"Je veux une table en pin d'exterieur."
+Arnaud - je veux un hamac bleu
+Bot - 
+Arnaud - Bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - je veux un hamac bio
+Bot - 
+Arnaud - j'ai besoin d'aide visiblement
+Bot - Vous avez besoin d'aide ? Sébastien à la rescousse !,Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.,Pour cela, envoyez moi juste une phrase de la forme :,"Je veux une table en pin d'exterieur."
+Arnaud - je veux un hamac bleu
+Bot - 
+Arnaud - merci
+Bot - Ne le mentionnez pas. ;)
+Arnaud - j'ai besoin d'aide
+Bot - Vous avez besoin d'aide ? Sébastien à la rescousse !,Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.,En fait, dans l'idéal, il faudrait que vous me donniez un type de produit et des caractéristiques voulues.,Par exemple, envoyez moi juste une phrase de la forme :,"Je veux une table en pin d'exterieur."
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac double
+Bot - 
+Arnaud - test
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac double
+Bot - 
+Arnaud - mdrrrrrrrrrrr
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - jpp
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - hamac bio
+Bot - 
+Arnaud - hamac double
+Bot - 
+Arnaud - Bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - hamac bio
+Bot - 
+Arnaud - j'ai besoin d'aide
+Bot - Vous avez besoin d'aide ? Sébastien à la rescousse !,Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.,En fait, dans l'idéal, il faudrait que vous me donniez un type de produit et des caractéristiques voulues.,Par exemple, envoyez moi une phrase de la forme :,"Je veux une table en pin d'exterieur."
+Arnaud - hamac double bleu
+Bot - 
+Arnaud - merci
+Bot - Ce fut un plaisir.
