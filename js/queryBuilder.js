@@ -14,7 +14,7 @@ const saveResults = (data) => new Promise((resolve, reject) => {
             return;
         }
 
-        console.log('File written');
+        console.log('>> File written');
         resolve();
     });
 });
@@ -51,7 +51,7 @@ const sendQuery = (connection, category, feature) => new Promise((resolve, rejec
     // console.log(subQuery2);
 
     const myQuery = 'CALL LoadProduct(\"' + category + '\",\"' + subQuery + '\",\"' + subQuery2 + '\")';
-    console.log(myQuery);
+    console.log('>> Query to be sent' + myQuery);
 
     Promise.all([getProduct(connection, myQuery)])
         .then(saveResults)
