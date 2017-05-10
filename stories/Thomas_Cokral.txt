@@ -406,3 +406,19 @@ Thomas - chui cuit
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
 Thomas - on é foutu
 Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Yo!
+Bot - Bien le bonjour.
+
+Thomas - Je veux un hamac
+Thomas - Allo là c pas compliqué
+Bot - Bien le bonjour.
+
+Thomas - yo l'asticot
+Bot - Salut !
+
+Thomas - hamac
+Bot - 
+Thomas - HAMAC ENCULE
+Bot - 
+Thomas - je vois pas de hamac double dans la liste c normal??
+Bot - 
