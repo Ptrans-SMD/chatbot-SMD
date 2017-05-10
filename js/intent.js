@@ -18,22 +18,21 @@ const handleIntent = (intents, text) => {
         switch (intent) {
             case 'aide':
                 console.log('>> help');
-                text += randomPhrase(intent);
+                text = randomPhrase(intent);
                 break;
             case 'greetings':
                 console.log('>> greetings');
-                text += randomPhrase(intent);
+                text = randomPhrase(intent);
                 break;
             case 'thanks':
                 console.log('>> thanks');
-                text += randomPhrase(intent);
+                text = randomPhrase(intent);
                 break;
             default:
                 console.log('>> not understood');
-                text += 'Je n\'ai pas compris ce que vous avez essayé de dire.';
+                text = 'Je n\'ai pas compris ce que vous avez essayé de dire.';
                 break;
         }
-        text += '\n';
     }
     return text;
 };

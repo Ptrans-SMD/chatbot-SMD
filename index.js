@@ -7,6 +7,7 @@ const displayProducts = require('./js/displayProducts');
 const path = require('path');
 const fs = require('fs');
 const mysql = require('mysql');
+const async = require('async');
 
 
 module.exports = function (bp) {
@@ -31,7 +32,7 @@ module.exports = function (bp) {
 			console.error('error connecting : ' + err.stack);
 			return;
 		}
-		console.log('connected as id ' + connection.threadId);
+		console.log('>> connected to the database as id ' + connection.threadId);
 
 		/*
 		 * middlewares : process incoming and outgoing messages
@@ -49,7 +50,7 @@ module.exports = function (bp) {
 			writeInFile(pathStories, event.user.first_name + ' - ' + event.text + '\n');
 
 			// Where we write the text we'll be sending
-			let text = "";
+			let text = [];
 
 			// Where we save the category and the features of the product
 			let queryCategory = [];
@@ -70,7 +71,6 @@ module.exports = function (bp) {
 				console.log(' >> nb categories : ', event.wit.entities.categorie.length);
 				const categories = event.wit.entities.categorie;
 				queryCategory = handleCategory(categories);
-				// text += " [Category] : " + queryCategory;
 			}
 
 			// Handle features
@@ -78,34 +78,55 @@ module.exports = function (bp) {
 				console.log(' >> nb features : ', event.wit.entities.feature.length);
 				const features = event.wit.entities.feature;
 				queryFeatures = handleFeature(features);
-				// text += " [Features] : " + queryFeatures;
 			}
 
 			// Handle if we got nothing
 			if (!Object.keys(event.wit.entities).length) {
-				text += 'Je n\'ai pas compris ce que vous avez essayé de dire.';
+				text.push('Je n\'ai pas compris ce que vous avez essayé de dire.');
 			}
 
 			// Send the query
 			if (queryCategory.length > 0 && queryFeatures.length > 0) {
-				console.log("je suis bien dans le if");
 				Promise.all([sendQuery(connection, queryCategory, queryFeatures)])
 					.then(() => new Promise((resolve, reject) => {
 						fs.readFile(path.resolve(__dirname, './js/test.json'), (err, data) => {
 							if (err) throw err;
 							text = displayProducts(JSON.parse(data));
-							console.log("ok!");
-							console.log(text);
+							console.log(">> file read");
 							resolve();
 						});
 					}))
 					.then(() => {
-						console.log('console log de génie : ' + text);
-						bp.messenger.sendText(sender, text);
+						console.log('>> answer to be sent : ' + text);
+						async.eachSeries(text, function (element, callback) {
+							bp.messenger.sendText(sender, element, {
+								typing: true,
+							});
+							setTimeout(() => {
+								callback()
+							}, 1000);
+						}, function (err) {
+							if (err) {
+								throw err;
+							}
+							console.log('>> answer sent');
+						});
 					});
 			} else {
-				console.log(text);
-				bp.messenger.sendText(sender, text);
+				console.log('>> answer to be sent : ' + text);
+				async.eachSeries(text, function (element, callback) {
+					bp.messenger.sendText(sender, element, {
+						typing: true,
+					});
+					setTimeout(() => {
+						callback()
+					}, 1000);
+				}, function (err) {
+					if (err) {
+						throw err;
+					}
+					console.log('>> answer sent');
+				});
 			}
 
 			writeInFile(pathStories, 'Bot - ' + text + '\n');
@@ -118,28 +139,28 @@ module.exports = function (bp) {
 			});
 
 			rl.on("SIGINT", function () {
-				console.log("SIGINT revceived: Terminating connection to the db");
+				console.log(">> SIGINT revceived: Terminating connection to the db");
 				connection.end(function (err) {
 					if (err) {
 						console.log(err);
 						process.exit();
 					}
 
-					console.log('The connection is terminated now');
+					console.log('>> The connection is terminated now');
 					process.exit();
 				});
 			});
 		}
 
 		process.on("SIGINT", function () {
-			console.log("SIGINT revceived: Terminating connection to the db");
+			console.log(">> SIGINT revceived: Terminating connection to the db");
 			connection.end(function (err) {
 				if (err) {
 					console.log(err);
 					process.exit();
 				}
 
-				console.log('The connection is terminated now');
+				console.log('>> The connection is terminated now');
 				//graceful shutdown
 				process.exit();
 			});
