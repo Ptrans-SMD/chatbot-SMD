@@ -49,7 +49,7 @@ module.exports = function (bp) {
 			writeInFile(pathStories, event.user.first_name + ' - ' + event.text + '\n');
 
 			// Where we write the text we'll be sending
-			let text = '';
+			let text = "";
 
 			// Where we save the category and the features of the product
 			let queryCategory = [];
@@ -93,8 +93,7 @@ module.exports = function (bp) {
 					.then(() => new Promise((resolve, reject) => {
 						fs.readFile(path.resolve(__dirname, './js/test.json'), (err, data) => {
 							if (err) throw err;
-							products = JSON.parse(data);
-							text = displayProducts(products);
+							text = displayProducts(JSON.parse(data));
 							console.log("ok!");
 							console.log(text);
 							resolve();
