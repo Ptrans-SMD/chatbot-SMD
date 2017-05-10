@@ -409,3 +409,70 @@ Arnaud - hamac bleu
 Bot -  [Category] : hamacs,hamac [Features] : bleu
 Arnaud - hamac bleu
 Bot -  [Category] : hamacs,hamac [Features] : bleu
+Arnaud - slt bg
+Bot - Hey.
+
+Arnaud - hamac bleu double
+Bot -  [Category] : hamacs,hamac [Features] : bleu,double
+Arnaud - allô
+Bot - Salut !
+
+Arnaud - hamac bleu double
+Bot -  [Category] : hamacs,hamac [Features] : bleu,double
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - salut
+Bot - Salut !
+
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu
+Bot -  [Category] : hamacs,hamac [Features] : double,bleu
+Arnaud - hamac double bleu$
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - je tapes des trucs au hasard
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - je tapes des trucs au hasard
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Arnaud - je tapes des trucs au hasard
+Bot - 
+Arnaud - je tapes des trucs au hasard
+Bot - 
+Arnaud - slt
+Bot - Bien le bonjour.
+
+Arnaud - blablabla
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac double
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac double
+Bot - 
+Arnaud - hamac barres
+Bot - 
