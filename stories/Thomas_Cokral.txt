@@ -422,3 +422,41 @@ Thomas - HAMAC ENCULE
 Bot - 
 Thomas - je vois pas de hamac double dans la liste c normal??
 Bot - 
+Thomas - Bonjour!
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Thomas - Est ce que je peux avoir un thé bio aux fruits rouges?
+Bot - 
+Thomas - Tu n'as pas compris?
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - thé bio?
+Bot - 
+Thomas - the bio
+Bot - 
+Thomas - Yo l'asticot
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une table en pin, d'extérieur" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Thomas - Je recherche du thé bio au jasmin
+Bot - 
+Thomas - Merci le loustic
+Bot - Ce fut un plaisir.
+Thomas - Et sinon.... tu aurais des huiles essentielles au thym?
+Bot - 
+Thomas - Là par contre t'abuses
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - huiles essentielles au thym - maintenant c'est bon?
+Bot - 
+Thomas - Ohlala t'es pas sérieux
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - tu m'ennuies jeune homme
+Bot - Je n'ai pas compris ce que vous avez essayé de dire.
+Thomas - Je veux bien un peu d'aide sinon
+Bot - Vous avez besoin d'aide ? Sébastien à la rescousse !,Alors, pour rappel : Je suis là pour vous aider à reformuler votre demande.,En fait, dans l'idéal, il faudrait que vous me donniez un type de produit et des caractéristiques voulues.,Par exemple, envoyez moi une phrase de la forme :,"Je veux une table en pin d'exterieur."
+Thomas - Je veux une table en pin d'extérieur
+Bot - 
+Thomas - Je veux une table en pin d'extérieur
+Bot - Nous n'avons trouvé aucun produit correspond, veuillez réessayer
+Thomas - Yo l'asticot
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux une thé bio au jasmin" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Thomas - Je veux du thé bio au jasmin
+Bot - 
+Bot - Ce fut un plaisir.
+Thomas - Merci

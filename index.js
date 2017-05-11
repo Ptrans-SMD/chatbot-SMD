@@ -113,6 +113,10 @@ module.exports = function (bp) {
 						});
 					});
 			} else {
+				if(text.length == 0)  {
+					text.push('Nous n\'avons trouvé aucun produit correspondant à votre recherche.');
+					text.push('Veuillez reformuler et  réessayer.');
+				}
 				console.log('>> answer to be sent : ' + text);
 				async.eachSeries(text, function (element, callback) {
 					bp.messenger.sendText(sender, element, {
