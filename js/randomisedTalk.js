@@ -10,7 +10,7 @@ const randomInteger = require('./utils');
 
 const greetings = [
 	`Bonjour bonjour, ici Sébastien !`,
-	`Bon, il semble que votre recherche n'ai rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !`,
+	`Bon, il semble que votre recherche n'ait rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !`,
 	`Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.`,
 	`Par exemple vous pouvez me demander une phrase du genre "Je veux du thé bio au jasmin" et si tout se passe bien je trouverais votre bonheur !`,
 	`Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !`
