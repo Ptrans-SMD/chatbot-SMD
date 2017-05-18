@@ -704,3 +704,43 @@ Arnaud - hamac double bleu
 Bot - 
 Arnaud - merci
 Bot - Ce fut un plaisir.
+Arnaud - bonjour
+Bot - Bonjour bonjour, ici Sébastien !,Bon, il semble que votre recherche n'ait rien donné, mais qu'à cela ne tienne, je suis là pour vous aider !,Pour ça, vous n'avez qu'à me dire ce que vous voulez, naturellement.,Par exemple vous pouvez me demander une phrase du genre "Je veux du thé bio au jasmin" et si tout se passe bien je trouverais votre bonheur !,Si vous voulez de nouveau des explications au cours de notre conversation, n'hésitez pas, et demandez moi simplement de l'aide !
+Arnaud - je veux un hamac
+Bot - Nous n'avons trouvé aucun produit correspondant à votre recherche.,Veuillez reformuler et  réessayer.
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
+Arnaud - hamac bleu
+Bot - 
