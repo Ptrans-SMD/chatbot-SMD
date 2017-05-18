@@ -1,7 +1,7 @@
 const displayProducts = (productsJSON) => {
     var tabProducts = [];
 
-    productsJSON[0]["products"].forEach(function (element) {
+    productsJSON["products"].forEach(function (element) {
             tabProducts.push(element["designation"]);
     }, this);
 

@@ -7,8 +7,8 @@ dotenv.config({
     path: path.resolve(__dirname, '../.env')
 });
 
-const saveResults = (data) => new Promise((resolve, reject) => {
-    fs.writeFile(path.resolve(__dirname, './test.json'), JSON.stringify(data), (err) => {
+const saveResults = (file, data) => new Promise((resolve, reject) => {
+    fs.writeFile(file, JSON.stringify(data), (err) => {
         if (err) {
             reject(err);
             return;
@@ -35,7 +35,7 @@ const getProduct = (connection, myQuery) => new Promise((resolve, reject) => {
     });
 });
 
-const sendQuery = (connection, category, feature) => new Promise((resolve, reject) => {
+const sendQuery = (connection, category, feature, file) => new Promise((resolve, reject) => {
 
     var subQuery = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\' or description LIKE \'%' + category[1] + '%\') AND';
     var subQuery2 = 'select designation from ' + category[0] + ' where (designation LIKE \'%' + category[1] + '%\') AND';
@@ -51,10 +51,10 @@ const sendQuery = (connection, category, feature) => new Promise((resolve, rejec
     // console.log(subQuery2);
 
     const myQuery = 'CALL LoadProduct(\"' + category + '\",\"' + subQuery + '\",\"' + subQuery2 + '\")';
-    console.log('>> Query to be sent' + myQuery);
+    console.log('>> Query to be sent : ' + myQuery);
 
-    Promise.all([getProduct(connection, myQuery)])
-        .then(saveResults)
+    getProduct(connection, myQuery)
+        .then((data) => saveResults(file, data))
         .catch(reject)
         .then(()=>{
             resolve();

@@ -46,6 +46,8 @@ module.exports = function (bp) {
 			// Setup to write in stories
 			const pathName = './stories/' + event.user.first_name + '_' + event.user.last_name + '.txt';
 			const pathStories = path.resolve(__dirname, pathName);
+			const pathResults = './results/' + event.user.first_name + '_' + event.user.last_name + '.json';
+			const pathJSON = path.resolve(__dirname, pathResults);
 			const sender = event.user.id;
 			writeInFile(pathStories, event.user.first_name + ' - ' + event.text + '\n');
 
@@ -87,9 +89,9 @@ module.exports = function (bp) {
 
 			// Send the query
 			if (queryCategory.length > 0 && queryFeatures.length > 0) {
-				Promise.all([sendQuery(connection, queryCategory, queryFeatures)])
+				Promise.all([sendQuery(connection, queryCategory, queryFeatures, pathJSON)])
 					.then(() => new Promise((resolve, reject) => {
-						fs.readFile(path.resolve(__dirname, './js/test.json'), (err, data) => {
+						fs.readFile(pathJSON, (err, data) => {
 							if (err) throw err;
 							text = displayProducts(JSON.parse(data));
 							console.log(">> file read");
